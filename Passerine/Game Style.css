@@ -1,0 +1,54 @@
+@font-face 
+{
+    font-family: 'Apple Chancery';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apple Chancery'), url('Apple Chancery.woff') format('woff');
+}
+
+h1
+{
+    color: rgb(250, 219, 82);
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body
+{
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    background-image: url("https://news.umanitoba.ca/wp-content/uploads/2014/12/Wallpapers-books.jpg");
+    background-size: 200%;
+}
+
+.Info
+{
+    margin-left: 50px;
+    font-size: 55px;
+    font-family: 'Apple Chancery', cursive;
+}
+
+a, a:visited
+{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color:aquamarine;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(105, 214, 178);
+    text-decoration: none;
+}
+
+a:active
+{
+    color: rgb(95, 196, 162);
+    text-decoration: none;
+}
